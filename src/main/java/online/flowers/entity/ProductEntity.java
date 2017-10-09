@@ -13,4 +13,8 @@ public class ProductEntity {
 
     @OneToMany(mappedBy = "product")
     List<PhotoEntity> photoList;
+
+    @OneToMany(mappedBy = "product")
+    List<OrderDetailEntity> orderDetailList;
+
 }
