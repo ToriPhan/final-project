@@ -1,9 +1,10 @@
 <!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
+Author: Anh Thu and Ngoc Thanh
+
 -->
+
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +12,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Flowers for Dreams" />
+<meta name="keywords" content="Best Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
@@ -49,8 +51,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<ul>
 						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">@example.com</a></li>
 						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 892</li>
-						<li><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i><a href="login.html">Login</a></li>
-						<li><i class="glyphicon glyphicon-book" aria-hidden="true"></i><a href="register.jsp">Register</a></li>
+						<li><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i><a href="/login">Login</a></li>
+						<li><i class="glyphicon glyphicon-book" aria-hidden="true"></i><a href="/register">Register</a></li>
 					</ul>
 				</div>
 				<div class="header-grid-right animated wow slideInRight" data-wow-delay=".5s">
@@ -65,7 +67,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 			<div class="logo-nav">
 				<div class="logo-nav-left animated wow zoomIn" data-wow-delay=".5s">
-					<h1><a href="index.jsp">Best Store <span>Shop anywhere</span></a></h1>
+					<h1><a href="/">Thanh Thu <span>Flowers Shop</span></a></h1>
 				</div>
 				<div class="logo-nav-left1">
 					<nav class="navbar navbar-default">
@@ -80,42 +82,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div> 
 					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 						<ul class="nav navbar-nav">
-							<li class="active"><a href="index.jsp" class="act">Home</a></li>
+							<li class="active"><a href="/" class="act">Home</a></li>
 							<!-- Mega Menu -->
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Birthday <b class="caret"></b></a>
 								<ul class="dropdown-menu multi-column columns-3">
 									<div class="row">
 										<div class="col-sm-4">
 											<ul class="multi-column-dropdown">
-												<h6>Men's Wear</h6>
-												<li><a href="products.html">Clothing</a></li>
-												<li><a href="products.html">Wallets</a></li>
-												<li><a href="products.html">Shoes</a></li>
-												<li><a href="products.html">Watches</a></li>
-												<li><a href="products.html">Accessories</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<h6>Women's Wear</h6>
-												<li><a href="products.html">Clothing</a></li>
-												<li><a href="products.html">Wallets,Bags</a></li>
-												<li><a href="products.html">Footwear</a></li>
-												<li><a href="products.html">Watches</a></li>
-												<li><a href="products.html">Accessories</a></li>
-												<li><a href="products.html">Jewellery</a></li>
-												<li><a href="products.html">Beauty & Grooming</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<h6>Kid's Wear</h6>
-												<li><a href="products.html">Kids Home Fashion</a></li>
-												<li><a href="products.html">Boy's Clothing</a></li>
-												<li><a href="products.html">Girl's Clothing</a></li>
-												<li><a href="products.html">Shoes</a></li>
-												<li><a href="products.html">Brand Stores</a></li>
+												<li><a href="products.html">Birthdays for Mom</a></li>
+												<li><a href="products.html">Birthdays for Wife</a></li>
+												<li><a href="products.html">Birthdays for Friend</a></li>
 											</ul>
 										</div>
 										<div class="clearfix"></div>
@@ -123,44 +100,41 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</ul>
 							</li>
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Furniture <b class="caret"></b></a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Occasion <b class="caret"></b></a>
 								<ul class="dropdown-menu multi-column columns-3">
 									<div class="row">
 										<div class="col-sm-4">
 											<ul class="multi-column-dropdown">
-												<h6>Home Collection</h6>
-												<li><a href="furniture.html">Cookware</a></li>
-												<li><a href="furniture.html">Sofas</a></li>
-												<li><a href="furniture.html">Dining Tables</a></li>
-												<li><a href="furniture.html">Shoe Racks</a></li>
-												<li><a href="furniture.html">Home Decor</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<h6>Office Collection</h6>
-												<li><a href="furniture.html">Carpets</a></li>
-												<li><a href="furniture.html">Tables</a></li>
-												<li><a href="furniture.html">Sofas</a></li>
-												<li><a href="furniture.html">Shoe Racks</a></li>
-												<li><a href="furniture.html">Sockets</a></li>
-												<li><a href="furniture.html">Electrical Machines</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<h6>Decorations</h6>
-												<li><a href="furniture.html">Toys</a></li>
-												<li><a href="furniture.html">Wall Clock</a></li>
-												<li><a href="furniture.html">Lighting</a></li>
-												<li><a href="furniture.html">Top Brands</a></li>
+												<li><a href="products.html">Teacher's day</a></li>
+												<li><a href="products.html">Halloween</a></li>
+												<li><a href="products.html">Love & Romance</a></li>
+												<li><a href="products.html">Anniverary</a></li>
+												<li><a href="products.html">Congratulations</a></li>
+												<li><a href="products.html">Engagement</a></li>
+												<li><a href="products.html">Wedding</a></li>
 											</ul>
 										</div>
 										<div class="clearfix"></div>
 									</div>
 								</ul>
 							</li>
-							<li><a href="short-codes.html">Short Codes</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Flowers <b class="caret"></b></a>
+								<ul class="dropdown-menu multi-column columns-3">
+									<div class="row">
+										<div class="col-sm-4">
+											<ul class="multi-column-dropdown">
+												<li><a href="furniture.html">Best Sellers</a></li>
+												<li><a href="furniture.html">New Flowers</a></li>
+												<li><a href="furniture.html">Tulips</a></li>
+												<li><a href="furniture.html">Iris</a></li>
+												<li><a href="furniture.html">Lilies</a></li>
+											</ul>
+										</div>
+										<div class="clearfix"></div>
+									</div>
+								</ul>
+							</li>							
 							<li><a href="mail.html">Mail Us</a></li>
 						</ul>
 					</div>
@@ -189,7 +163,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<a href="checkout.html">
 							<h3> <div class="total">
 								<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
-								<img src="/resources/images/bag.png" alt="" />
+								<img src="images/bag.png" alt="" />
 							</h3>
 						</a>
 						<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
@@ -203,35 +177,36 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- //header -->
 <!-- banner -->
 	<div class="banner">
+<!-- //banner -->
 		<div class="container">
-			<div class="banner-info animated wow zoomIn" data-wow-delay=".5s">
-				<h3>Free Online Shopping</h3>
+			<div class="banner-info animated wow zoomIn animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;">
+				<h3>Flowers for Dreams</h3>
 				<h4>Up to <span>50% <i>Off/-</i></span></h4>
-				<div class="wmuSlider example1">
+				<div class="wmuSlider example1" style="overflow: hidden; height: 123px;">
 					<div class="wmuSliderWrapper">
 						<article style="position: absolute; width: 100%; opacity: 0;"> 
 							<div class="banner-wrap">
 								<div class="banner-info1">
-									<p>T-Shirts + Formal Pants + Jewellery + Cosmetics</p>
+									<p>Birthdays</p>
 								</div>
 							</div>
 						</article>
 						<article style="position: absolute; width: 100%; opacity: 0;"> 
 							<div class="banner-wrap">
 								<div class="banner-info1">
-									<p>Toys + Furniture + Lighting + Watches</p>
+									<p>Love & Romance</p>
 								</div>
 							</div>
 						</article>
-						<article style="position: absolute; width: 100%; opacity: 0;"> 
+						<article style="position: relative; width: 100%; opacity: 1;"> 
 							<div class="banner-wrap">
 								<div class="banner-info1">
-									<p>Tops + Books & Media + Sports</p>
+									<p>Engagement + Wedding</p>
 								</div>
 							</div>
 						</article>
 					</div>
-				</div>
+				<ul class="wmuSliderPagination"><li><a href="#" class="">0</a></li><li><a href="#" class="">1</a></li><li><a href="#" class="wmuActive">2</a></li></ul></div>
 					<script src="/resources/js/jquery.wmuSlider.js"></script>
 					<script>
 						$('.example1').wmuSlider();         
@@ -239,253 +214,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>
 	</div>
-<!-- //banner -->
-<!-- banner-bottom -->
-	<div class="banner-bottom">
-		<div class="container"> 
-			<div class="banner-bottom-grids">
-				<div class="banner-bottom-grid-left animated wow slideInLeft" data-wow-delay=".5s">
-					<div class="grid">
-						<figure class="effect-julia">
-							<img src="/resources/images/4.jpg" alt=" " class="img-responsive" />
-							<figcaption>
-								<h3>Best <span>Store</span><i> in online shopping</i></h3>
-								<div>
-									<p>Cupidatat non proident, sunt</p>
-									<p>Officia deserunt mollit anim</p>
-									<p>Laboris nisi ut aliquip consequat</p>
-								</div>
-							</figcaption>			
-						</figure>
-					</div>
-				</div>
-				<div class="banner-bottom-grid-left1 animated wow slideInUp" data-wow-delay=".5s">
-					<div class="banner-bottom-grid-left-grid left1-grid grid-left-grid1">
-						<div class="banner-bottom-grid-left-grid1">
-							<img src="/resources/images/1.jpg" alt=" " class="img-responsive" />
-						</div>
-						<div class="banner-bottom-grid-left1-pos">
-							<p>Discount 45%</p>
-						</div>
-					</div>
-					<div class="banner-bottom-grid-left-grid left1-grid grid-left-grid1">
-						<div class="banner-bottom-grid-left-grid1">
-							<img src="/resources/images/2.jpg" alt=" " class="img-responsive" />
-						</div>
-						<div class="banner-bottom-grid-left1-position">
-							<div class="banner-bottom-grid-left1-pos1">
-								<p>Latest New Collections</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="banner-bottom-grid-right animated wow slideInRight" data-wow-delay=".5s">
-					<div class="banner-bottom-grid-left-grid grid-left-grid1">
-						<div class="banner-bottom-grid-left-grid1">
-							<img src="/resources/images/3.jpg" alt=" " class="img-responsive" />
-						</div>
-						<div class="grid-left-grid1-pos">
-							<p>top and classic designs <span>2016 Collection</span></p>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
 <!-- //banner-bottom -->
 <!-- collections -->
 	<div class="new-collections">
 		<div class="container">
-			<h3 class="animated wow zoomIn" data-wow-delay=".5s">New Collections</h3>
-			<p class="est animated wow zoomIn" data-wow-delay=".5s">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-				deserunt mollit anim id est laborum.</p>
+			<h3 class="animated wow zoomIn" data-wow-delay=".5s">New & Fresh Flowers</h3>
+			<p class="est animated wow zoomIn" data-wow-delay=".5s">Our selection of new & fresh flowers is always changing to reflect the most seasonal, 
+			stylish bouquets and gifts. So if you’re looking for trendy just something truly unique, look no further.</p>
+
+
+
 			<div class="new-collections-grids">
+                <c:forEach var="product" items="${products}">
 				<div class="col-md-3 new-collections-grid">
 					<div class="new-collections-grid1 animated wow slideInUp" data-wow-delay=".5s">
 						<div class="new-collections-grid1-image">
-							<a href="single.html" class="product-image"><img src="/resources/images/7.jpg" alt=" " class="img-responsive" /></a>
+							<a href="/" class="product-image"><img src="${product.photoList[0].path}" alt=" " class="img-responsive" /></a>
 							<div class="new-collections-grid1-image-pos">
-								<a href="single.html">Quick View</a>
-							</div>
-							<div class="new-collections-grid1-right">
-								<div class="rating">
-									<div class="rating-left">
-										<img src="/resources/images/2.png" alt=" " class="img-responsive" />
-									</div>
-									<div class="rating-left">
-										<img src="/resources/images/2.png" alt=" " class="img-responsive" />
-									</div>
-									<div class="rating-left">
-										<img src="/resources/images/2.png" alt=" " class="img-responsive" />
-									</div>
-									<div class="rating-left">
-										<img src="/resources/images/1.png" alt=" " class="img-responsive" />
-									</div>
-									<div class="rating-left">
-										<img src="/resources/images/1.png" alt=" " class="img-responsive" />
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</div>
-						</div>
-						<h4><a href="single.html">Formal Shirt</a></h4>
-						<p>Vel illum qui dolorem eum fugiat.</p>
-						<div class="new-collections-grid1-left simpleCart_shelfItem">
-							<p><i>$325</i> <span class="item_price">$250</span><a class="item_add" href="#">add to cart </a></p>
-						</div>
-					</div>
-					<div class="new-collections-grid1 animated wow slideInUp" data-wow-delay=".5s">
-						<div class="new-collections-grid1-image">
-							<a href="single.html" class="product-image"><img src="/resources/images/8.jpg" alt=" " class="img-responsive" /></a>
-							<div class="new-collections-grid1-image-pos">
-								<a href="single.html">Quick View</a>
-							</div>
-							<div class="new-collections-grid1-right">
-								<div class="rating">
-									<div class="rating-left">
-										<img src="/resources/images/2.png" alt=" " class="img-responsive" />
-									</div>
-									<div class="rating-left">
-										<img src="/resources/images/2.png" alt=" " class="img-responsive" />
-									</div>
-									<div class="rating-left">
-										<img src="/resources/images/1.png" alt=" " class="img-responsive" />
-									</div>
-									<div class="rating-left">
-										<img src="/resources/images/1.png" alt=" " class="img-responsive" />
-									</div>
-									<div class="rating-left">
-										<img src="/resources/images/1.png" alt=" " class="img-responsive" />
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</div>
-						</div>
-						<h4><a href="single.html">Running Shoes</a></h4>
-						<p>Vel illum qui dolorem eum fugiat.</p>
-						<div class="new-collections-grid1-left simpleCart_shelfItem">
-							<p><i>$280</i> <span class="item_price">$150</span><a class="item_add" href="#">add to cart </a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 new-collections-grid">
-					<div class="new-collections-grid1 new-collections-grid1-image-width animated wow slideInUp" data-wow-delay=".5s">
-						<div class="new-collections-grid1-image">
-							<a href="single.html" class="product-image"><img src="/resources/images/5.jpg" alt=" " class="img-responsive" /></a>
-							<div class="new-collections-grid1-image-pos new-collections-grid1-image-pos1">
-								<a href="single.html">Quick View</a>
-							</div>
-							<div class="new-collections-grid1-right new-collections-grid1-right-rate">
-								<div class="rating">
-									<div class="rating-left">
-										<img src="/resources/images/2.png" alt=" " class="img-responsive" />
-									</div>
-									<div class="rating-left">
-										<img src="/resources/images/2.png" alt=" " class="img-responsive" />
-									</div>
-									<div class="rating-left">
-										<img src="/resources/images/2.png" alt=" " class="img-responsive" />
-									</div>
-									<div class="rating-left">
-										<img src="/resources/images/2.png" alt=" " class="img-responsive" />
-									</div>
-									<div class="rating-left">
-										<img src="/resources/images/1.png" alt=" " class="img-responsive" />
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</div>
-							<div class="new-one">
-								<p>New</p>
-							</div>
-						</div>
-						<h4><a href="single.html">Dining Table</a></h4>
-						<p>Vel illum qui dolorem eum fugiat.</p>
-						<div class="new-collections-grid1-left simpleCart_shelfItem">
-							<p><i>$580</i> <span class="item_price">$550</span><a class="item_add" href="#">add to cart </a></p>
-						</div>
-					</div>
-					<div class="new-collections-grid-sub-grids">
-						<div class="new-collections-grid1-sub">
-							<div class="new-collections-grid1 animated wow slideInUp" data-wow-delay=".5s">
-								<div class="new-collections-grid1-image">
-									<a href="single.html" class="product-image"><img src="images/6.jpg" alt=" " class="img-responsive" /></a>
-									<div class="new-collections-grid1-image-pos">
-										<a href="single.html">Quick View</a>
-									</div>
-									<div class="new-collections-grid1-right">
-										<div class="rating">
-											<div class="rating-left">
-												<img src="images/2.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img src="images/2.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img src="images/2.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img src="images/2.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img src="images/2.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="clearfix"> </div>
-										</div>
-									</div>
-								</div>
-								<h4><a href="single.html">Wall Lamp</a></h4>
-								<p>Vel illum qui dolorem eum fugiat.</p>
-								<div class="new-collections-grid1-left simpleCart_shelfItem">
-									<p><i>$480</i> <span class="item_price">$400</span><a class="item_add" href="#">add to cart </a></p>
-								</div>
-							</div>
-						</div>
-						<div class="new-collections-grid1-sub">
-							<div class="new-collections-grid1 animated wow slideInUp" data-wow-delay=".5s">
-								<div class="new-collections-grid1-image">
-									<a href="single.html" class="product-image"><img src="images/9.jpg" alt=" " class="img-responsive" /></a>
-									<div class="new-collections-grid1-image-pos">
-										<a href="single.html">Quick View</a>
-									</div>
-									<div class="new-collections-grid1-right">
-										<div class="rating">
-											<div class="rating-left">
-												<img src="images/2.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img src="images/1.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img src="images/1.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img src="images/1.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img src="images/1.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="clearfix"> </div>
-										</div>
-									</div>
-								</div>
-								<h4><a href="single.html">Wall Lamp</a></h4>
-								<p>Vel illum qui dolorem eum fugiat.</p>
-								<div class="new-collections-grid1-left simpleCart_shelfItem">
-									<p><i>$280</i> <span class="item_price">$150</span><a class="item_add" href="#">add to cart </a></p>
-								</div>
-							</div>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="col-md-3 new-collections-grid">
-					<div class="new-collections-grid1 animated wow slideInUp" data-wow-delay=".5s">
-						<div class="new-collections-grid1-image">
-							<a href="single.html" class="product-image"><img src="images/10.jpg" alt=" " class="img-responsive" /></a>
-							<div class="new-collections-grid1-image-pos">
-								<a href="single.html">Quick View</a>
+								<a href="/">Quick View</a>
 							</div>
 							<div class="new-collections-grid1-right">
 								<div class="rating">
@@ -508,46 +254,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</div>
 							</div>
 						</div>
-						<h4><a href="single.html">Pearl & Stone Anklet</a></h4>
-						<p>Vel illum qui dolorem eum fugiat.</p>
+						<h4><a href="/">${product.name}</a></h4>
+						<p>Need to describe.</p>
 						<div class="new-collections-grid1-left simpleCart_shelfItem">
-							<p><i>$180</i> <span class="item_price">$120</span><a class="item_add" href="#">add to cart </a></p>
-						</div>
-					</div>
-					<div class="new-collections-grid1 animated wow slideInUp" data-wow-delay=".5s">
-						<div class="new-collections-grid1-image">
-							<a href="single.html" class="product-image"><img src="images/11.jpg" alt=" " class="img-responsive" /></a>
-							<div class="new-collections-grid1-image-pos">
-								<a href="single.html">Quick View</a>
-							</div>
-							<div class="new-collections-grid1-right">
-								<div class="rating">
-									<div class="rating-left">
-										<img src="images/2.png" alt=" " class="img-responsive" />
-									</div>
-									<div class="rating-left">
-										<img src="images/2.png" alt=" " class="img-responsive" />
-									</div>
-									<div class="rating-left">
-										<img src="images/2.png" alt=" " class="img-responsive" />
-									</div>
-									<div class="rating-left">
-										<img src="images/2.png" alt=" " class="img-responsive" />
-									</div>
-									<div class="rating-left">
-										<img src="images/1.png" alt=" " class="img-responsive" />
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</div>
-						</div>
-						<h4><a href="single.html">Stones Bangles</a></h4>
-						<p>Vel illum qui dolorem eum fugiat.</p>
-						<div class="new-collections-grid1-left simpleCart_shelfItem">
-							<p><i>$340</i> <span class="item_price">$257</span><a class="item_add" href="#">add to cart </a></p>
+							<p><i>$325</i> <span class="item_price">${product.price}</span><a class="item_add" href="#">add to cart </a></p>
 						</div>
 					</div>
 				</div>
+                    </c:forEach>
 				<div class="clearfix"> </div>
 			</div>
 		</div>
@@ -558,7 +272,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container">
 			<div class="timer-grids">
 				<div class="col-md-8 timer-grid-left animated wow slideInLeft" data-wow-delay=".5s">
-					<h3><a href="products.html">sunt in culpa qui officia deserunt mollit</a></h3>
+					<h3><a href="products.html">100 Blooms of Floral-Fetti</a></h3>
 					<div class="rating">
 						<div class="rating-left">
 							<img src="images/2.png" alt=" " class="img-responsive" />
@@ -579,19 +293,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 					<div class="new-collections-grid1-left simpleCart_shelfItem timer-grid-left-price">
 						<p><i>$580</i> <span class="item_price">$550</span></p>
-						<h4>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
-							nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit 
-							qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui 
-							dolorem eum fugiat quo voluptas nulla pariatur.</h4>
+						<h4>Need to describe.</h4>
 						<p><a class="item_add timer_add" href="#">add to cart </a></p>
 					</div>
 					<div id="counter"> </div>
-					<script src="js/jquery.countdown.js"></script>
-					<script src="js/script.js"></script>
+					<script src="/resources/js/jquery.countdown.js"></script>
+					<script src="/resources/js/script.js"></script>
 				</div>
 				<div class="col-md-4 timer-grid-right animated wow slideInRight" data-wow-delay=".5s">
 					<div class="timer-grid-right1">
-						<img src="images/17.jpg" alt=" " class="img-responsive" />
+						<img src="/resources/images/newflowers/NF08-100 Blooms of Floral-Fetti.jpg" alt=" " class="img-responsive" />
 						<div class="timer-grid-right-pos">
 							<h4>Special Offer</h4>
 						</div>
@@ -607,7 +318,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container">
 			<div class="collections-bottom-grids">
 				<div class="collections-bottom-grid animated wow slideInLeft" data-wow-delay=".5s">
-					<h3>45% Offer For <span>Women & Children's</span></h3>
+					<h3>45% Offer For <span>Wedding & Engagement</span></h3>
 				</div>
 			</div>
 			<div class="newsletter animated wow slideInUp" data-wow-delay=".5s">
@@ -626,12 +337,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="footer">
 		<div class="container">
 			<div class="footer-grids">
-				<div class="col-md-3 footer-grid animated wow slideInLeft" data-wow-delay=".5s">
+				<div class="col-md-6 footer-grid animated wow slideInLeft" data-wow-delay=".5s">
 					<h3>About Us</h3>
 					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse.<span>Excepteur sint occaecat cupidatat 
 						non proident, sunt in culpa qui officia deserunt mollit.</span></p>
 				</div>
-				<div class="col-md-3 footer-grid animated wow slideInLeft" data-wow-delay=".6s">
+				<div class="col-md-6 footer-grid animated wow slideInLeft" data-wow-delay=".6s">
 					<h3>Contact Info</h3>
 					<ul>
 						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>1234k Avenue, 4th block, <span>New York City.</span></li>
@@ -639,76 +350,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 567</li>
 					</ul>
 				</div>
-				<div class="col-md-3 footer-grid animated wow slideInLeft" data-wow-delay=".7s">
-					<h3>Flickr Posts</h3>
-					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/13.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/14.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/15.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/16.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/13.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/14.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/15.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/16.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/13.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/14.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/15.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/16.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-3 footer-grid animated wow slideInLeft" data-wow-delay=".8s">
-					<h3>Blog Posts</h3>
-					<div class="footer-grid-sub-grids">
-						<div class="footer-grid-sub-grid-left">
-							<a href="single.html"><img src="images/9.jpg" alt=" " class="img-responsive" /></a>
-						</div>
-						<div class="footer-grid-sub-grid-right">
-							<h4><a href="single.html">culpa qui officia deserunt</a></h4>
-							<p>Posted On 25/3/2016</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="footer-grid-sub-grids">
-						<div class="footer-grid-sub-grid-left">
-							<a href="single.html"><img src="images/10.jpg" alt=" " class="img-responsive" /></a>
-						</div>
-						<div class="footer-grid-sub-grid-right">
-							<h4><a href="single.html">Quis autem vel eum iure</a></h4>
-							<p>Posted On 25/3/2016</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 			<div class="footer-logo animated wow slideInUp" data-wow-delay=".5s">
-				<h2><a href="index.jsp">Best Store <span>shop anywhere</span></a></h2>
+				<h2><a href="/">Thanh Thu <span>flowers shop</span></a></h2>
 			</div>
 			<div class="copy-right animated wow slideInUp" data-wow-delay=".5s">
-				<p>&copy 2016 Best Store. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+				<p>&copy 2017 Thanh Thu Flowers Shop. All rights reserved | Design by <a href="http://w3layouts.com/">Thanh Thu</a></p>
 			</div>
 		</div>
 	</div>

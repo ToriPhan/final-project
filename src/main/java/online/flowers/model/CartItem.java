@@ -6,9 +6,6 @@ public class CartItem extends ProductEntity {
     private int quantity;
     private float total;
 
-    public CartItem() {
-    }
-
     public int getQuantity() {
         return quantity;
     }

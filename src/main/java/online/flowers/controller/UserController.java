@@ -4,6 +4,7 @@ import online.flowers.entity.RoleEntity;
 import online.flowers.entity.UserEntity;
 import online.flowers.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -18,6 +19,9 @@ import javax.servlet.http.HttpSession;
 public class UserController {
     @Autowired
     private UserRepository userRepository;
+
+    @Autowired
+    PasswordEncoder passwordEncoder;
 
     @RequestMapping(value = "/register",
             method = RequestMethod.GET)
@@ -37,6 +41,8 @@ public class UserController {
         RoleEntity role = new RoleEntity();
         role.setId(1);
         user.setRole(role);
+        String hashPassword= passwordEncoder.encode(user.getPassword());
+        user.setPassword(hashPassword);
         userRepository.save(user);
         return "redirect:/";
     }
@@ -52,7 +58,7 @@ public class UserController {
                               UserEntity user,
                               HttpServletRequest request){
         UserEntity foundUser = userRepository.findByEmailAndPassword(
-                user.getEmail(), user.getPassword());
+                user.getEmail(), passwordEncoder.encode(user.getPassword()));
         if (foundUser == null) {
             // login failed
             model.addAttribute("error", "Login failed");

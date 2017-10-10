@@ -324,8 +324,10 @@ a.simpleCart_empty {
 /*-- //header --*/
 /*-- banner --*/
 .banner{
-	background:url(../images/banner.jpg) no-repeat 0px 0px;
-	background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-image: url(../images/banner.jpg);
+    background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;

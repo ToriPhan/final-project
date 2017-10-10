@@ -281,40 +281,40 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="col-md-3 footer-grid animated wow slideInLeft" data-wow-delay=".7s">
 					<h3>Flickr Posts</h3>
 					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/13.jpg" alt=" " class="img-responsive" /></a>
+						<a href="single.jsp"><img src="images/13.jpg" alt=" " class="img-responsive" /></a>
 					</div>
 					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/14.jpg" alt=" " class="img-responsive" /></a>
+						<a href="single.jsp"><img src="images/14.jpg" alt=" " class="img-responsive" /></a>
 					</div>
 					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/15.jpg" alt=" " class="img-responsive" /></a>
+						<a href="single.jsp"><img src="images/15.jpg" alt=" " class="img-responsive" /></a>
 					</div>
 					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/16.jpg" alt=" " class="img-responsive" /></a>
+						<a href="single.jsp"><img src="images/16.jpg" alt=" " class="img-responsive" /></a>
 					</div>
 					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/13.jpg" alt=" " class="img-responsive" /></a>
+						<a href="single.jsp"><img src="images/13.jpg" alt=" " class="img-responsive" /></a>
 					</div>
 					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/14.jpg" alt=" " class="img-responsive" /></a>
+						<a href="single.jsp"><img src="images/14.jpg" alt=" " class="img-responsive" /></a>
 					</div>
 					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/15.jpg" alt=" " class="img-responsive" /></a>
+						<a href="single.jsp"><img src="images/15.jpg" alt=" " class="img-responsive" /></a>
 					</div>
 					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/16.jpg" alt=" " class="img-responsive" /></a>
+						<a href="single.jsp"><img src="images/16.jpg" alt=" " class="img-responsive" /></a>
 					</div>
 					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/13.jpg" alt=" " class="img-responsive" /></a>
+						<a href="single.jsp"><img src="images/13.jpg" alt=" " class="img-responsive" /></a>
 					</div>
 					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/14.jpg" alt=" " class="img-responsive" /></a>
+						<a href="single.jsp"><img src="images/14.jpg" alt=" " class="img-responsive" /></a>
 					</div>
 					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/15.jpg" alt=" " class="img-responsive" /></a>
+						<a href="single.jsp"><img src="images/15.jpg" alt=" " class="img-responsive" /></a>
 					</div>
 					<div class="footer-grid-left">
-						<a href="single.html"><img src="images/16.jpg" alt=" " class="img-responsive" /></a>
+						<a href="single.jsp"><img src="images/16.jpg" alt=" " class="img-responsive" /></a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -322,20 +322,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<h3>Blog Posts</h3>
 					<div class="footer-grid-sub-grids">
 						<div class="footer-grid-sub-grid-left">
-							<a href="single.html"><img src="images/9.jpg" alt=" " class="img-responsive" /></a>
+							<a href="single.jsp"><img src="images/9.jpg" alt=" " class="img-responsive" /></a>
 						</div>
 						<div class="footer-grid-sub-grid-right">
-							<h4><a href="single.html">culpa qui officia deserunt</a></h4>
+							<h4><a href="single.jsp">culpa qui officia deserunt</a></h4>
 							<p>Posted On 25/3/2016</p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
 					<div class="footer-grid-sub-grids">
 						<div class="footer-grid-sub-grid-left">
-							<a href="single.html"><img src="images/10.jpg" alt=" " class="img-responsive" /></a>
+							<a href="single.jsp"><img src="images/10.jpg" alt=" " class="img-responsive" /></a>
 						</div>
 						<div class="footer-grid-sub-grid-right">
-							<h4><a href="single.html">Quis autem vel eum iure</a></h4>
+							<h4><a href="single.jsp">Quis autem vel eum iure</a></h4>
 							<p>Posted On 25/3/2016</p>
 						</div>
 						<div class="clearfix"> </div>
