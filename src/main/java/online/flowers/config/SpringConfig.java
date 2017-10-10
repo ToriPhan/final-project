@@ -25,7 +25,7 @@ public class SpringConfig {
             dataSource.setUrl("jdbc:mysql://localhost:3306/final_project");
             dataSource.setUsername("root");
             dataSource.setPassword("123456");
-            return  dataSource;
+            return dataSource;
         }
 
         @Bean
