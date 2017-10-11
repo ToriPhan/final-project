@@ -51,8 +51,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">@example.com</a></li>
 						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 892</li>
+						<c:if test="${email == null}">
 						<li><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i><a href="/login">Login</a></li>
 						<li><i class="glyphicon glyphicon-book" aria-hidden="true"></i><a href="/register">Register</a></li>
+						</c:if>
+						<c:if test="${email != null}">
+							<li><i class="glyphicon glyphicon-user" aria-hidden="true"></i>${email}</li>
+						    <li><i class ="glyphicon glyphicon-log-out" aria-hidden="true"></i><a href="/logout">Logout</a></li>
+						</c:if>
 					</ul>
 				</div>
 				<div class="header-grid-right animated wow slideInRight" data-wow-delay=".5s">
@@ -67,7 +73,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="logo-nav">
 				<div class="logo-nav-left animated wow zoomIn" data-wow-delay=".5s">
-					<h1><a href="/">Thanh Thu <span>Flowers Shop</span></a></h1>
+					<h1><a href="/">DREAMS<span>Flowers Shop</span></a></h1>
 				</div>
 				<div class="logo-nav-left1">
 					<nav class="navbar navbar-default">
@@ -86,17 +92,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<!-- Mega Menu -->
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Birthday <b class="caret"></b></a>
-								<ul class="dropdown-menu multi-column columns-3">
-									<div class="row">
-										<div class="col-sm-4">
+								<ul class="dropdown-menu">
 											<ul class="multi-column-dropdown">
 												<li><a href="products.html">Birthdays for Mom</a></li>
 												<li><a href="products.html">Birthdays for Wife</a></li>
 												<li><a href="products.html">Birthdays for Friend</a></li>
 											</ul>
-										</div>
 										<div class="clearfix"></div>
-									</div>
 								</ul>
 							</li>
 							<li class="dropdown">
@@ -218,18 +220,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- collections -->
 	<div class="new-collections">
 		<div class="container">
-			<h3 class="animated wow zoomIn" data-wow-delay=".5s">New & Fresh Flowers</h3>
-			<p class="est animated wow zoomIn" data-wow-delay=".5s">Our selection of new & fresh flowers is always changing to reflect the most seasonal, 
-			stylish bouquets and gifts. So if you’re looking for trendy just something truly unique, look no further.</p>
-
-
+			<h3 class="animated wow zoomIn" data-wow-delay=".5s">New & Beautiful Flowers</h3>
+			<p class="est animated wow zoomIn" data-wow-delay=".5s">Our selection of new & beautiful flowers is always changing to reflect the most seasonal,
+			stylish bouquets and gifts. So if you are looking for trendy just something truly unique, look no further.</p>
 
 			<div class="new-collections-grids">
-                <c:forEach var="product" items="${products}">
-				<div class="col-md-3 new-collections-grid">
+            <c:forEach var="product" items="${products}">
+				<div class="col-md-4 new-collections-grid">
 					<div class="new-collections-grid1 animated wow slideInUp" data-wow-delay=".5s">
 						<div class="new-collections-grid1-image">
-							<a href="/" class="product-image"><img src="${product.photoList[0].path}" alt=" " class="img-responsive" /></a>
+							<a href="/" class="product-image"><img src="/resources/images/newflowers/${product.photoList[0].path}" alt=" " class="img-responsive" /></a>
 							<div class="new-collections-grid1-image-pos">
 								<a href="/">Quick View</a>
 							</div>
@@ -261,8 +261,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 					</div>
 				</div>
-                    </c:forEach>
-				<div class="clearfix"> </div>
+            </c:forEach>
+            <div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
@@ -354,10 +354,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="clearfix"> </div>
 			</div>
 			<div class="footer-logo animated wow slideInUp" data-wow-delay=".5s">
-				<h2><a href="/">Thanh Thu <span>flowers shop</span></a></h2>
+				<h2><a href="/">DREAMS <span>flowers shop</span></a></h2>
 			</div>
 			<div class="copy-right animated wow slideInUp" data-wow-delay=".5s">
-				<p>&copy 2017 Thanh Thu Flowers Shop. All rights reserved | Design by <a href="http://w3layouts.com/">Thanh Thu</a></p>
+				<p>&copy 2017 Dreams Flowers Shop. All rights reserved | Design by <a href="http://w3layouts.com/">Thanh Thu</a></p>
 			</div>
 		</div>
 	</div>

@@ -671,6 +671,7 @@ p.est{
 }
 .new-collections-grid{
 	padding-left:0;
+    margin-top: 2em;
 }
 .new-collections-grids {
     margin: 3em 0 0;
@@ -2690,7 +2691,7 @@ td.invert-image a img {
 	}
 	.new-collections-grid,.products-right-grids-bottom-grid {
 		width: 47%;
-		margin: 0 auto;
+		margin: 2em auto;
 	}
 	.new-collections-grids {
 		margin: 2em 0 0;

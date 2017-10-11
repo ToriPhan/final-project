@@ -1,5 +1,7 @@
 package online.flowers.entity;
 
+import org.springframework.stereotype.Controller;
+
 import javax.persistence.*;
 
 @Entity
@@ -23,6 +25,17 @@ public class UserEntity {
 
     @Column(name = "password")
     private String password;
+
+    @Column(name = "activationCode")
+    private String activationCode;
+
+    public String getActivationCode() {
+        return activationCode;
+    }
+
+    public void setActivationCode(String activationCode) {
+        this.activationCode = activationCode;
+    }
 
     @ManyToOne
     @JoinColumn(name = "roleId")
