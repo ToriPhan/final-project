@@ -10,7 +10,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Flowers for Dreams | Products</title>
+<title>Flowers for Dreams | Flowers</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -50,7 +50,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="header-grid-left animated wow slideInLeft" data-wow-delay=".5s">
 					<ul>
 						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">@example.com</a></li>
-						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 <span>567</span> 892</li>
+						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1 773 <span>886</span> 9848</li>
 						<li><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i><a href="/login">Login</a></li>
 						<li><i class="glyphicon glyphicon-book" aria-hidden="true"></i><a href="/register">Register</a></li>
 					</ul>
@@ -67,7 +67,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="logo-nav">
 				<div class="logo-nav-left animated wow zoomIn" data-wow-delay=".5s">
-					<h1><a href="/">Best Store <span>Shop anywhere</span></a></h1>
+					<h1><a href="/">DREAMS <span>Flowers Shop</span></a></h1>
 				</div>
 				<div class="logo-nav-left1">
 					<nav class="navbar navbar-default">
@@ -84,85 +84,45 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul class="nav navbar-nav">
 							<li><a href="/">Home</a></li>
 							<!-- Mega Menu -->
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
-								<ul class="dropdown-menu multi-column columns-3">
-									<div class="row">
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<h6>Men's Wear</h6>
-												<li><a href="products.html">Clothing</a></li>
-												<li><a href="products.html">Wallets</a></li>
-												<li><a href="products.html">Shoes</a></li>
-												<li><a href="products.html">Watches</a></li>
-												<li><a href="products.html">Accessories</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<h6>Women's Wear</h6>
-												<li><a href="products.html">Clothing</a></li>
-												<li><a href="products.html">Wallets,Bags</a></li>
-												<li><a href="products.html">Footwear</a></li>
-												<li><a href="products.html">Watches</a></li>
-												<li><a href="products.html">Accessories</a></li>
-												<li><a href="products.html">Jewellery</a></li>
-												<li><a href="products.html">Beauty & Grooming</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<h6>Kid's Wear</h6>
-												<li><a href="products.html">Kids Home Fashion</a></li>
-												<li><a href="products.html">Boy's Clothing</a></li>
-												<li><a href="products.html">Girl's Clothing</a></li>
-												<li><a href="products.html">Shoes</a></li>
-												<li><a href="products.html">Brand Stores</a></li>
-											</ul>
-										</div>
-										<div class="clearfix"></div>
-									</div>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Furniture <b class="caret"></b></a>
-								<ul class="dropdown-menu multi-column columns-3">
-									<div class="row">
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<h6>Home Collection</h6>
-												<li><a href="furniture.html">Cookware</a></li>
-												<li><a href="furniture.html">Sofas</a></li>
-												<li><a href="furniture.html">Dining Tables</a></li>
-												<li><a href="furniture.html">Shoe Racks</a></li>
-												<li><a href="furniture.html">Home Decor</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<h6>Office Collection</h6>
-												<li><a href="furniture.html">Carpets</a></li>
-												<li><a href="furniture.html">Tables</a></li>
-												<li><a href="furniture.html">Sofas</a></li>
-												<li><a href="furniture.html">Shoe Racks</a></li>
-												<li><a href="furniture.html">Sockets</a></li>
-												<li><a href="furniture.html">Electrical Machines</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<h6>Decorations</h6>
-												<li><a href="furniture.html">Toys</a></li>
-												<li><a href="furniture.html">Wall Clock</a></li>
-												<li><a href="furniture.html">Lighting</a></li>
-												<li><a href="furniture.html">Top Brands</a></li>
-											</ul>
-										</div>
-										<div class="clearfix"></div>
-									</div>
-								</ul>
-							</li>
-							<li><a href="short-codes.html">Short Codes</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Birthday <b class="caret"></b></a>
+                                <ul class="dropdown-menu multi-column columns-3">
+                                    <ul class="multi-column-dropdown">
+                                        <li><a href="products.html">Birthdays for Mom</a></li>
+                                        <li><a href="products.html">Birthdays for Wife</a></li>
+                                        <li><a href="products.html">Birthdays for Friend</a></li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Occasion <b class="caret"></b></a>
+                                <ul class="dropdown-menu multi-column columns-3">
+                                    <ul class="multi-column-dropdown ">
+                                        <li><a href="products.html">Teacher's day</a></li>
+                                        <li><a href="products.html">Halloween</a></li>
+                                        <li><a href="products.html">Love & Romance</a></li>
+                                        <li><a href="products.html">Anniverary</a></li>
+                                        <li><a href="products.html">Congratulations</a></li>
+                                        <li><a href="products.html">Engagement</a></li>
+                                        <li><a href="products.html">Wedding</a></li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Flowers <b class="caret"></b></a>
+                                <ul class="dropdown-menu multi-column columns-3">
+                                    <ul class="multi-column-dropdown">
+                                        <li><a href="furniture.html">Best Sellers</a></li>
+                                        <li><a href="furniture.html">New Flowers</a></li>
+                                        <li><a href="furniture.html">Tulips</a></li>
+                                        <li><a href="furniture.html">Iris</a></li>
+                                        <li><a href="furniture.html">Lilies</a></li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </ul>
+                            </li>
 							<li><a href="mail.html">Mail Us</a></li>
 						</ul>
 					</div>
@@ -191,7 +151,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<a href="checkout.html">
 							<h3> <div class="total">
 								<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
-								<img src="images/bag.png" alt="" />
+								<img src="/resources/images/bag.png" alt="" />
 							</h3>
 						</a>
 						<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
@@ -208,7 +168,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
 				<li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
-				<li class="active">Single Page</li>
+				<li class="active">Flowers</li>
 			</ol>
 		</div>
 	</div>
@@ -216,73 +176,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- single -->
 	<div class="single">
 		<div class="container">
-			<div class="col-md-4 products-left">
-				<div class="filter-price animated wow slideInUp" data-wow-delay=".5s">
-					<h3>Filter By Price</h3>
-					<ul class="dropdown-menu1">
-							<li><a href="">								               
-							<div id="slider-range"></div>							
-							<input type="text" id="amount" style="border: 0" />
-							</a></li>	
-					</ul>
-						<script type='text/javascript'>//<![CDATA[ 
-						$(window).load(function(){
-						 $( "#slider-range" ).slider({
-								range: true,
-								min: 0,
-								max: 100000,
-								values: [ 10000, 60000 ],
-								slide: function( event, ui ) {  $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-								}
-					 });
-					$( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) + " - $" + $( "#slider-range" ).slider( "values", 1 ) );
-
-
-						});//]]>
-						</script>
-						<script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
-					 <!---->
-				</div>
-				<div class="categories animated wow slideInUp" data-wow-delay=".5s">
-					<h3>Categories</h3>
-					<ul class="cate">
-						<li><a href="products.html">Best Selling</a> <span>(15)</span></li>
-						<li><a href="products.html">Home Collections</a> <span>(16)</span></li>
-							<ul>
-								<li><a href="products.html">Cookware</a> <span>(2)</span></li>
-								<li><a href="products.html">New Arrivals</a> <span>(0)</span></li>
-								<li><a href="products.html">Home Decore</a> <span>(1)</span></li>
-							</ul>
-						<li><a href="products.html">Decorations</a> <span>(15)</span></li>
-							<ul>
-								<li><a href="products.html">Wall Clock</a> <span>(2)</span></li>
-								<li><a href="products.html">New Arrivals</a> <span>(0)</span></li>
-								<li><a href="products.html">Lighting</a> <span>(1)</span></li>
-								<li><a href="products.html">Top Brands</a> <span>(0)</span></li>
-							</ul>
-					</ul>
-				</div>
-				<div class="men-position animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.jsp"><img src="images/29.jpg" alt=" " class="img-responsive" /></a>
-					<div class="men-position-pos">
-						<h4>Summer collection</h4>
-						<h5><span>55%</span> Flat Discount</h5>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-8 single-right">
+			<div class="col-md-8 col-md-offset-2">
 				<div class="col-md-5 single-right-left animated wow slideInUp" data-wow-delay=".5s">
 					<div class="flexslider">
 						<ul class="slides">
-							<li data-thumb="images/si.jpg">
-								<div class="thumb-image"> <img src="images/si.jpg" data-imagezoom="true" class="img-responsive"> </div>
-							</li>
-							<li data-thumb="images/si1.jpg">
-								 <div class="thumb-image"> <img src="images/si1.jpg" data-imagezoom="true" class="img-responsive"> </div>
-							</li>
-							<li data-thumb="images/si2.jpg">
-							   <div class="thumb-image"> <img src="images/si2.jpg" data-imagezoom="true" class="img-responsive"> </div>
-							</li> 
+                            <c:forEach var="photo" items="${product.photoList}">
+							    <li data-thumb="/resources/images/newflowers/${photo.path}">
+								    <div class="thumb-image"> <img src="/resources/images/newflowers/${photo.path}" data-imagezoom="true" class="img-responsive"> </div>
+                                </li>
+                            </c:forEach>
 						</ul>
 					</div>
 					<!-- flixslider -->
@@ -300,8 +202,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<!-- flixslider -->
 				</div>
 				<div class="col-md-7 single-right-left simpleCart_shelfItem animated wow slideInRight" data-wow-delay=".5s">
-					<h3>Men's Solid Casual Shirt</h3>
-					<h4><span class="item_price">$550</span> - $900</h4>
+					<h3>${product.name}</h3>
+                    <h4><span class="item_price">$${product.price}</span></h4>
 					<div class="rating1">
 						<span class="starRating">
 							<input id="rating5" type="radio" name="rating" value="5">
@@ -318,46 +220,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="description">
 						<h5><i>Description</i></h5>
-						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-							eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+						<p>${product.description}</p>
 					</div>
 					<div class="color-quality">
+                        <div class="color-quality-right">
+                            <div class="occasion-cart">
+                                <h5>Like the flowers?!</h5>
+                                <ul>
+                                <a class="item_add" href="#">add to cart </a>
+                                </ul>
+                            </div>
+                        </div>
 						<div class="color-quality-left">
-							<h5>Color : </h5>
-							<ul>
-								<li><a href="#"><span></span>Red</a></li>
-								<li><a href="#" class="brown"><span></span>Yellow</a></li>
-								<li><a href="#" class="purple"><span></span>Purple</a></li>
-								<li><a href="#" class="gray"><span></span>Violet</a></li>
-							</ul>
-						</div>
-						<div class="color-quality-right">
 							<h5>Quality :</h5>
 							<select id="country1" onchange="change_country(this.value)" class="frm-field required sect">
-								<option value="null">5 Qty</option>
-								<option value="null">6 Qty</option> 
-								<option value="null">7 Qty</option>					
-								<option value="null">10 Qty</option>								
+								<option value="null">1 </option>
+								<option value="null">2 </option>
+								<option value="null">3 </option>
+								<option value="null">4 </option>
 							</select>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
-					<div class="occasional">
-						<h5>Occasion :</h5>
-						<div class="colr ert">
-							<label class="radio"><input type="radio" name="radio" checked=""><i></i>Casual Wear</label>
-						</div>
-						<div class="colr">
-							<label class="radio"><input type="radio" name="radio"><i></i>Party Wear</label>
-						</div>
-						<div class="colr">
-							<label class="radio"><input type="radio" name="radio"><i></i>Formal Wear</label>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="occasion-cart">
-						<a class="item_add" href="#">add to cart </a>
-					</div>
+
 					<div class="social">
 						<div class="social-left">
 							<p>Share On :</p>
@@ -436,12 +321,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</form>
 									</div>
 								</div>
-							</div>
-							<div role="tabpanel" class="tab-pane fade bootstrap-tab-text" id="dropdown1" aria-labelledby="dropdown1-tab">
-								<p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
-							</div>
-							<div role="tabpanel" class="tab-pane fade bootstrap-tab-text" id="dropdown2" aria-labelledby="dropdown2-tab">
-								<p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</p>
 							</div>
 						</div>
 					</div>
@@ -607,95 +486,31 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 <!-- //single-related-products -->
 <!-- footer -->
-	<div class="footer">
-		<div class="container">
-			<div class="footer-grids">
-				<div class="col-md-3 footer-grid animated wow slideInLeft" data-wow-delay=".5s">
-					<h3>About Us</h3>
-					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse.<span>Excepteur sint occaecat cupidatat 
-						non proident, sunt in culpa qui officia deserunt mollit.</span></p>
-				</div>
-				<div class="col-md-3 footer-grid animated wow slideInLeft" data-wow-delay=".6s">
-					<h3>Contact Info</h3>
-					<ul>
-						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>1234k Avenue, 4th block, <span>New York City.</span></li>
-						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
-						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 567</li>
-					</ul>
-				</div>
-				<div class="col-md-3 footer-grid animated wow slideInLeft" data-wow-delay=".7s">
-					<h3>Flickr Posts</h3>
-					<div class="footer-grid-left">
-						<a href="single.jsp"><img src="images/13.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="footer-grid-left">
-						<a href="single.jsp"><img src="images/14.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="footer-grid-left">
-						<a href="single.jsp"><img src="images/15.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="footer-grid-left">
-						<a href="single.jsp"><img src="images/16.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="footer-grid-left">
-						<a href="single.jsp"><img src="images/13.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="footer-grid-left">
-						<a href="single.jsp"><img src="images/14.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="footer-grid-left">
-						<a href="single.jsp"><img src="images/15.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="footer-grid-left">
-						<a href="single.jsp"><img src="images/16.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="footer-grid-left">
-						<a href="single.jsp"><img src="images/13.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="footer-grid-left">
-						<a href="single.jsp"><img src="images/14.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="footer-grid-left">
-						<a href="single.jsp"><img src="images/15.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="footer-grid-left">
-						<a href="single.jsp"><img src="images/16.jpg" alt=" " class="img-responsive" /></a>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-3 footer-grid animated wow slideInLeft" data-wow-delay=".8s">
-					<h3>Blog Posts</h3>
-					<div class="footer-grid-sub-grids">
-						<div class="footer-grid-sub-grid-left">
-							<a href="single.jsp"><img src="images/9.jpg" alt=" " class="img-responsive" /></a>
-						</div>
-						<div class="footer-grid-sub-grid-right">
-							<h4><a href="single.jsp">culpa qui officia deserunt</a></h4>
-							<p>Posted On 25/3/2016</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="footer-grid-sub-grids">
-						<div class="footer-grid-sub-grid-left">
-							<a href="single.jsp"><img src="images/10.jpg" alt=" " class="img-responsive" /></a>
-						</div>
-						<div class="footer-grid-sub-grid-right">
-							<h4><a href="single.jsp">Quis autem vel eum iure</a></h4>
-							<p>Posted On 25/3/2016</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="footer-logo animated wow slideInUp" data-wow-delay=".5s">
-				<h2><a href="/">Best Store <span>shop anywhere</span></a></h2>
-			</div>
-			<div class="copy-right animated wow slideInUp" data-wow-delay=".5s">
-				<p>&copy 2016 Best Store. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
-			</div>
-		</div>
-	</div>
+<div class="footer">
+    <div class="container">
+        <div class="footer-grids">
+            <div class="col-md-6 footer-grid animated wow slideInLeft" data-wow-delay=".5s">
+                <h3>About Us</h3>
+                <p>Create a "wow" moment with our flowers and gifts this holiday season.<span>Whether it is a thoughtful bouquet of birthday flowers or romantic anniversary flowers, we know fresh flowers and plants leave a lasting impression.</span></p>
+            </div>
+            <div class="col-md-6 footer-grid animated wow slideInLeft" data-wow-delay=".6s">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>5th N Michigan Avenue, <span>Chicago, IL 60630.</span></li>
+                    <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
+                    <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1 773 886 9848</li>
+                </ul>
+            </div>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <div class="footer-logo animated wow slideInUp" data-wow-delay=".5s">
+        <h2><a href="/">DREAMS <span>flowers shop</span></a></h2>
+    </div>
+    <div class="copy-right animated wow slideInUp" data-wow-delay=".5s">
+        <p>&copy 2017 Dreams Flowers Shop. All rights reserved | Design by <a href="http://w3layouts.com/">Thanh Thu</a></p>
+    </div>
+</div>
 <!-- //footer -->
 <!-- zooming-effect -->
 	<script src="/resources/js/imagezoom.js"></script>

@@ -50,7 +50,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="header-grid-left animated wow slideInLeft" data-wow-delay=".5s">
 					<ul>
 						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">@example.com</a></li>
-						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 892</li>
+						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1 773 886 9848</li>
 						<c:if test="${email == null}">
 						<li><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i><a href="/login">Login</a></li>
 						<li><i class="glyphicon glyphicon-book" aria-hidden="true"></i><a href="/register">Register</a></li>
@@ -92,11 +92,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<!-- Mega Menu -->
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Birthday <b class="caret"></b></a>
-								<ul class="dropdown-menu">
+								<ul class="dropdown-menu multi-column columns-3">
 											<ul class="multi-column-dropdown">
-												<li><a href="products.html">Birthdays for Mom</a></li>
-												<li><a href="products.html">Birthdays for Wife</a></li>
-												<li><a href="products.html">Birthdays for Friend</a></li>
+												<li><a href="products.jsp">Birthdays for Mom</a></li>
+												<li><a href="products.jsp">Birthdays for Wife</a></li>
+												<li><a href="products.jsp">Birthdays for Friend</a></li>
 											</ul>
 										<div class="clearfix"></div>
 								</ul>
@@ -104,27 +104,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Occasion <b class="caret"></b></a>
 								<ul class="dropdown-menu multi-column columns-3">
-									<div class="row">
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<li><a href="products.html">Teacher's day</a></li>
-												<li><a href="products.html">Halloween</a></li>
-												<li><a href="products.html">Love & Romance</a></li>
-												<li><a href="products.html">Anniverary</a></li>
-												<li><a href="products.html">Congratulations</a></li>
-												<li><a href="products.html">Engagement</a></li>
-												<li><a href="products.html">Wedding</a></li>
+											<ul class="multi-column-dropdown ">
+												<li><a href="products.jsp">Teacher's day</a></li>
+												<li><a href="products.jsp">Halloween</a></li>
+												<li><a href="products.jsp">Love & Romance</a></li>
+												<li><a href="products.jsp">Anniverary</a></li>
+												<li><a href="products.jsp">Congratulations</a></li>
+												<li><a href="products.jsp">Engagement</a></li>
+												<li><a href="products.jsp">Wedding</a></li>
 											</ul>
-										</div>
 										<div class="clearfix"></div>
-									</div>
 								</ul>
 							</li>
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Flowers <b class="caret"></b></a>
 								<ul class="dropdown-menu multi-column columns-3">
-									<div class="row">
-										<div class="col-sm-4">
 											<ul class="multi-column-dropdown">
 												<li><a href="furniture.html">Best Sellers</a></li>
 												<li><a href="furniture.html">New Flowers</a></li>
@@ -132,9 +126,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<li><a href="furniture.html">Iris</a></li>
 												<li><a href="furniture.html">Lilies</a></li>
 											</ul>
-										</div>
 										<div class="clearfix"></div>
-									</div>
 								</ul>
 							</li>							
 							<li><a href="mail.html">Mail Us</a></li>
@@ -165,7 +157,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<a href="checkout.html">
 							<h3> <div class="total">
 								<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
-								<img src="images/bag.png" alt="" />
+								<img src="/resources/images/bag.png" alt="" />
 							</h3>
 						</a>
 						<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
@@ -229,9 +221,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-4 new-collections-grid">
 					<div class="new-collections-grid1 animated wow slideInUp" data-wow-delay=".5s">
 						<div class="new-collections-grid1-image">
-							<a href="/" class="product-image"><img src="/resources/images/newflowers/${product.photoList[0].path}" alt=" " class="img-responsive" /></a>
+							<a href="/detail?id=${product.id}" class="product-image"><img src="/resources/images/newflowers/${product.photoList[0].path}" alt=" " class="img-responsive" /></a>
 							<div class="new-collections-grid1-image-pos">
-								<a href="/">Quick View</a>
+								<a href="/detail?id=${product.id}">Quick View</a>
 							</div>
 							<div class="new-collections-grid1-right">
 								<div class="rating">
@@ -254,10 +246,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>
 							</div>
 						</div>
-						<h4><a href="/">${product.name}</a></h4>
-						<p>Need to describe.</p>
+						<h4><a href="/detail?id=${product.id}">${product.name}</a></h4>
 						<div class="new-collections-grid1-left simpleCart_shelfItem">
-							<p><i>$325</i> <span class="item_price">${product.price}</span><a class="item_add" href="#">add to cart </a></p>
+							<p><span class="item_price">$${product.price}</span><a class="item_add" href="#">add to cart </a></p>
 						</div>
 					</div>
 				</div>
@@ -272,7 +263,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="timer-grids">
 				<div class="col-md-8 timer-grid-left animated wow slideInLeft" data-wow-delay=".5s">
-					<h3><a href="products.html">100 Blooms of Floral-Fetti</a></h3>
+					<h3><a href="products.jsp">100 Blooms of Floral-Fetti</a></h3>
 					<div class="rating">
 						<div class="rating-left">
 							<img src="images/2.png" alt=" " class="img-responsive" />
@@ -339,15 +330,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="footer-grids">
 				<div class="col-md-6 footer-grid animated wow slideInLeft" data-wow-delay=".5s">
 					<h3>About Us</h3>
-					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse.<span>Excepteur sint occaecat cupidatat 
-						non proident, sunt in culpa qui officia deserunt mollit.</span></p>
+					<p>Create a "wow" moment with our flowers and gifts this holiday season.<span>Whether it is a thoughtful bouquet of birthday flowers or romantic anniversary flowers, we know fresh flowers and plants leave a lasting impression.</span></p>
 				</div>
 				<div class="col-md-6 footer-grid animated wow slideInLeft" data-wow-delay=".6s">
 					<h3>Contact Info</h3>
 					<ul>
-						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>1234k Avenue, 4th block, <span>New York City.</span></li>
+						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>5th N Michigan Avenue, <span>Chicago, IL 60630.</span></li>
 						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
-						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 567</li>
+						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1 773 886 9848</li>
 					</ul>
 				</div>
 				</div>
@@ -359,7 +349,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="copy-right animated wow slideInUp" data-wow-delay=".5s">
 				<p>&copy 2017 Dreams Flowers Shop. All rights reserved | Design by <a href="http://w3layouts.com/">Thanh Thu</a></p>
 			</div>
-		</div>
 	</div>
 <!-- //footer -->
 </body>

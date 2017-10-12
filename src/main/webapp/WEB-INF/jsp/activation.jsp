@@ -52,7 +52,7 @@ new WOW().init();
 <div class="header-grid-left animated wow slideInLeft" data-wow-delay=".5s">
 <ul>
     <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">@example.com</a></li>
-    <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 892</li>
+    <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1 773 886 9848</li>
     <c:if test="${email == null}">
         <li><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i><a href="/login">Login</a></li>
         <li><i class="glyphicon glyphicon-book" aria-hidden="true"></i><a href="/register">Register</a></li>
@@ -75,7 +75,7 @@ new WOW().init();
 </div>
 <div class="logo-nav">
 <div class="logo-nav-left animated wow zoomIn" data-wow-delay=".5s">
-<h1><a href="/">Thanh Thu <span>Flowers Shop</span></a></h1>
+<h1><a href="/">DREAMS<span>Flowers Shop</span></a></h1>
 </div>
 <div class="logo-nav-left1">
 <nav class="navbar navbar-default">
@@ -98,9 +98,9 @@ new WOW().init();
                     <div class="row">
                         <div class="col-sm-4">
                             <ul class="multi-column-dropdown">
-                                <li><a href="products.html">Birthdays for Mom</a></li>
-                                <li><a href="products.html">Birthdays for Wife</a></li>
-                                <li><a href="products.html">Birthdays for Friend</a></li>
+                                <li><a href="products.jsp">Birthdays for Mom</a></li>
+                                <li><a href="products.jsp">Birthdays for Wife</a></li>
+                                <li><a href="products.jsp">Birthdays for Friend</a></li>
                             </ul>
                         </div>
                         <div class="clearfix"></div>
@@ -113,13 +113,13 @@ new WOW().init();
                     <div class="row">
                         <div class="col-sm-4">
                             <ul class="multi-column-dropdown">
-                                <li><a href="products.html">Teacher's day</a></li>
-                                <li><a href="products.html">Halloween</a></li>
-                                <li><a href="products.html">Love & Romance</a></li>
-                                <li><a href="products.html">Anniverary</a></li>
-                                <li><a href="products.html">Congratulations</a></li>
-                                <li><a href="products.html">Engagement</a></li>
-                                <li><a href="products.html">Wedding</a></li>
+                                <li><a href="products.jsp">Teacher's day</a></li>
+                                <li><a href="products.jsp">Halloween</a></li>
+                                <li><a href="products.jsp">Love & Romance</a></li>
+                                <li><a href="products.jsp">Anniverary</a></li>
+                                <li><a href="products.jsp">Congratulations</a></li>
+                                <li><a href="products.jsp">Engagement</a></li>
+                                <li><a href="products.jsp">Wedding</a></li>
                             </ul>
                         </div>
                         <div class="clearfix"></div>
@@ -186,7 +186,7 @@ new WOW().init();
 <div class ="login">
     <div class = "container">
         <c:if test="${success != null}">
-            <h4 class="animated wow slideInUp" data-wow-delay=".5s">Thank you for registering with us. We have already sent you an email to activate your account. Please check it!</h4>
+            <h4 class="animated wow slideInUp" data-wow-delay=".5s">Thank you for registering with us.<span> We have already sent you an email to activate your account. Please check it!</span></h4>
             <p class="animated wow slideInUp" data-wow-delay=".5s"><a href="/login">Login Here</a> (Or) go back to <a href="/">Home<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></p>
         </c:if>
 
@@ -201,5 +201,32 @@ new WOW().init();
         </c:if>
     </div>
 </div>
+<!-- footer -->
+<div class="footer">
+    <div class="container">
+        <div class="footer-grids">
+            <div class="col-md-6 footer-grid animated wow slideInLeft" data-wow-delay=".5s">
+                <h3>About Us</h3>
+                <p>Create a "wow" moment with our flowers and gifts this holiday season.<span>Whether it is a thoughtful bouquet of birthday flowers or romantic anniversary flowers, we know fresh flowers and plants leave a lasting impression.</span></p>
+            </div>
+            <div class="col-md-6 footer-grid animated wow slideInLeft" data-wow-delay=".6s">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>5th N Michigan Avenue, <span>Chicago, IL 60630.</span></li>
+                    <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
+                    <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1 773 886 9848</li>
+                </ul>
+            </div>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <div class="footer-logo animated wow slideInUp" data-wow-delay=".5s">
+        <h2><a href="/">DREAMS <span>flowers shop</span></a></h2>
+    </div>
+    <div class="copy-right animated wow slideInUp" data-wow-delay=".5s">
+        <p>&copy 2017 Dreams Flowers Shop. All rights reserved | Design by <a href="http://w3layouts.com/">Thanh Thu</a></p>
+    </div>
+</div>
+<!-- //footer -->
 </body>
 </html>

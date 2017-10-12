@@ -184,7 +184,7 @@ ul.multi-column-dropdown h6 {
 	font-weight:500 !important;
 }
 .dropdown-menu.columns-3 {
-    min-width: 700px;
+    min-width: 200px;
     padding: 30px 30px;
 }
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
@@ -2876,7 +2876,7 @@ td.invert-image a img {
 	}
 	.dropdown-menu.columns-3 {
 		min-width: 360px;
-		text-align: center;
+		/*text-align: center;*/
 		padding: 0 1.5em;
 	}
 	ul.multi-column-dropdown h6 {
@@ -2884,6 +2884,8 @@ td.invert-image a img {
 	}
 	ul.multi-column-dropdown {
 		margin: 2em 0;
+        padding-right: 25px;
+        padding-left: 25px;
 	}
 	.logo-nav-left1 {
 		width: 50%;
@@ -3667,6 +3669,7 @@ td.invert-image a img {
 	}
 	.color-quality-left,.color-quality-right {
 		float: none;
+        padding-bottom: 20px;
 	}
 	.description {
 		margin: 2em 0 1em;
