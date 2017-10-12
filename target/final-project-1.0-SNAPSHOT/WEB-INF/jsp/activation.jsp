@@ -98,9 +98,9 @@ new WOW().init();
                     <div class="row">
                         <div class="col-sm-4">
                             <ul class="multi-column-dropdown">
-                                <li><a href="products.html">Birthdays for Mom</a></li>
-                                <li><a href="products.html">Birthdays for Wife</a></li>
-                                <li><a href="products.html">Birthdays for Friend</a></li>
+                                <li><a href="products.jsp">Birthdays for Mom</a></li>
+                                <li><a href="products.jsp">Birthdays for Wife</a></li>
+                                <li><a href="products.jsp">Birthdays for Friend</a></li>
                             </ul>
                         </div>
                         <div class="clearfix"></div>
@@ -113,13 +113,13 @@ new WOW().init();
                     <div class="row">
                         <div class="col-sm-4">
                             <ul class="multi-column-dropdown">
-                                <li><a href="products.html">Teacher's day</a></li>
-                                <li><a href="products.html">Halloween</a></li>
-                                <li><a href="products.html">Love & Romance</a></li>
-                                <li><a href="products.html">Anniverary</a></li>
-                                <li><a href="products.html">Congratulations</a></li>
-                                <li><a href="products.html">Engagement</a></li>
-                                <li><a href="products.html">Wedding</a></li>
+                                <li><a href="products.jsp">Teacher's day</a></li>
+                                <li><a href="products.jsp">Halloween</a></li>
+                                <li><a href="products.jsp">Love & Romance</a></li>
+                                <li><a href="products.jsp">Anniverary</a></li>
+                                <li><a href="products.jsp">Congratulations</a></li>
+                                <li><a href="products.jsp">Engagement</a></li>
+                                <li><a href="products.jsp">Wedding</a></li>
                             </ul>
                         </div>
                         <div class="clearfix"></div>
@@ -186,7 +186,7 @@ new WOW().init();
 <div class ="login">
     <div class = "container">
         <c:if test="${success != null}">
-            <h4 class="animated wow slideInUp" data-wow-delay=".5s">Thank you for registering with us. We have already sent you an email to activate your account. Please check it!</h4>
+            <h4 class="animated wow slideInUp" data-wow-delay=".5s">Thank you for registering with us.<span> We have already sent you an email to activate your account. Please check it!</span></h4>
             <p class="animated wow slideInUp" data-wow-delay=".5s"><a href="/login">Login Here</a> (Or) go back to <a href="/">Home<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></p>
         </c:if>
 

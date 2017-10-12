@@ -88,9 +88,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Birthday <b class="caret"></b></a>
                                 <ul class="dropdown-menu multi-column columns-3">
                                     <ul class="multi-column-dropdown">
-                                        <li><a href="products.html">Birthdays for Mom</a></li>
-                                        <li><a href="products.html">Birthdays for Wife</a></li>
-                                        <li><a href="products.html">Birthdays for Friend</a></li>
+                                        <li><a href="products.jsp">Birthdays for Mom</a></li>
+                                        <li><a href="products.jsp">Birthdays for Wife</a></li>
+                                        <li><a href="products.jsp">Birthdays for Friend</a></li>
                                     </ul>
                                     <div class="clearfix"></div>
                                 </ul>
@@ -99,13 +99,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Occasion <b class="caret"></b></a>
                                 <ul class="dropdown-menu multi-column columns-3">
                                     <ul class="multi-column-dropdown ">
-                                        <li><a href="products.html">Teacher's day</a></li>
-                                        <li><a href="products.html">Halloween</a></li>
-                                        <li><a href="products.html">Love & Romance</a></li>
-                                        <li><a href="products.html">Anniverary</a></li>
-                                        <li><a href="products.html">Congratulations</a></li>
-                                        <li><a href="products.html">Engagement</a></li>
-                                        <li><a href="products.html">Wedding</a></li>
+                                        <li><a href="products.jsp">Teacher's day</a></li>
+                                        <li><a href="products.jsp">Halloween</a></li>
+                                        <li><a href="products.jsp">Love & Romance</a></li>
+                                        <li><a href="products.jsp">Anniverary</a></li>
+                                        <li><a href="products.jsp">Congratulations</a></li>
+                                        <li><a href="products.jsp">Engagement</a></li>
+                                        <li><a href="products.jsp">Wedding</a></li>
                                     </ul>
                                     <div class="clearfix"></div>
                                 </ul>

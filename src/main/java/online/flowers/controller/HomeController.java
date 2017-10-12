@@ -1,6 +1,9 @@
 package online.flowers.controller;
 
+import com.sun.org.apache.xpath.internal.operations.Mod;
+import online.flowers.entity.CategoryEntity;
 import online.flowers.entity.ProductEntity;
+import online.flowers.repository.CategoryRepository;
 import online.flowers.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -18,12 +21,18 @@ public class HomeController {
     @Autowired
     private ProductRepository productRepository;
 
+    @Autowired
+    private CategoryRepository categoryRepository;
+
 
     @RequestMapping()
     public String showProducts (Model model) {
         List<ProductEntity> products = (List<ProductEntity>) productRepository.findAll();
         model.addAttribute("products", products);
+        List<CategoryEntity> categoryList = (List<CategoryEntity>) categoryRepository.findAll();
+        model.addAttribute("category", categoryList);
         return "index";
+
     }
 
     @RequestMapping(value = "/detail")

@@ -20,6 +20,9 @@ public class ProductEntity {
     @Column(name = "description")
     private String description;
 
+    @Column(name = "detail")
+    private String detail;
+
     @ManyToOne
     @JoinColumn(name = "categoryId")
     private CategoryEntity category;
@@ -31,6 +34,14 @@ public class ProductEntity {
     List<OrderDetailEntity> orderDetailList;
 
     public ProductEntity() {
+    }
+
+    public String getDetail() {
+        return detail;
+    }
+
+    public void setDetail(String detail) {
+        this.detail = detail;
     }
 
     public int getId() {

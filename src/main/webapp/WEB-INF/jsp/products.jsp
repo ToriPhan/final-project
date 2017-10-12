@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Best Store a Ecommerce Online Shopping Category Flat Bootstrap Responsive Website Template | Products :: w3layouts</title>
+<title>Flowers for Dreams | Flowers</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -47,9 +47,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="header-grid-left animated wow slideInLeft" data-wow-delay=".5s">
 					<ul>
 						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">@example.com</a></li>
-						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 <span>567</span> 892</li>
-						<li><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i><a href="login.html">Login</a></li>
-						<li><i class="glyphicon glyphicon-book" aria-hidden="true"></i><a href="register.html">Register</a></li>
+						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1 773 <span>886</span> 9848</li>
+						<li><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i><a href="/login">Login</a></li>
+						<li><i class="glyphicon glyphicon-book" aria-hidden="true"></i><a href="/register">Register</a></li>
 					</ul>
 				</div>
 				<div class="header-grid-right animated wow slideInRight" data-wow-delay=".5s">
@@ -64,7 +64,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="logo-nav">
 				<div class="logo-nav-left animated wow zoomIn" data-wow-delay=".5s">
-					<h1><a href="index.html">Best Store <span>Shop anywhere</span></a></h1>
+					<h1><a href="index.html">DREAMS <span>Flowers Shop</span></a></h1>
 				</div>
 				<div class="logo-nav-left1">
 					<nav class="navbar navbar-default">
@@ -81,85 +81,45 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul class="nav navbar-nav">
 							<li><a href="index.html">Home</a></li>	
 							<!-- Mega Menu -->
-							 <li class="dropdown active">
-								<a href="#" class="dropdown-toggle act" data-toggle="dropdown">Products <b class="caret"></b></a>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Birthday <b class="caret"></b></a>
 								<ul class="dropdown-menu multi-column columns-3">
-									<div class="row">
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<h6>Men's Wear</h6>
-												<li><a href="products.jsp">Clothing</a></li>
-												<li><a href="products.jsp">Wallets</a></li>
-												<li><a href="products.jsp">Shoes</a></li>
-												<li><a href="products.jsp">Watches</a></li>
-												<li><a href="products.jsp">Accessories</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<h6>Women's Wear</h6>
-												<li><a href="products.jsp">Clothing</a></li>
-												<li><a href="products.jsp">Wallets,Bags</a></li>
-												<li><a href="products.jsp">Footwear</a></li>
-												<li><a href="products.jsp">Watches</a></li>
-												<li><a href="products.jsp">Accessories</a></li>
-												<li><a href="products.jsp">Jewellery</a></li>
-												<li><a href="products.jsp">Beauty & Grooming</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<h6>Kid's Wear</h6>
-												<li><a href="products.jsp">Kids Home Fashion</a></li>
-												<li><a href="products.jsp">Boy's Clothing</a></li>
-												<li><a href="products.jsp">Girl's Clothing</a></li>
-												<li><a href="products.jsp">Shoes</a></li>
-												<li><a href="products.jsp">Brand Stores</a></li>
-											</ul>
-										</div>
-										<div class="clearfix"></div>
-									</div>
+									<ul class="multi-column-dropdown">
+										<li><a href="products.jsp">Birthdays for Mom</a></li>
+										<li><a href="products.jsp">Birthdays for Wife</a></li>
+										<li><a href="products.jsp">Birthdays for Friend</a></li>
+									</ul>
+									<div class="clearfix"></div>
 								</ul>
 							</li>
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Furniture <b class="caret"></b></a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Occasion <b class="caret"></b></a>
 								<ul class="dropdown-menu multi-column columns-3">
-									<div class="row">
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<h6>Home Collection</h6>
-												<li><a href="furniture.html">Cookware</a></li>
-												<li><a href="furniture.html">Sofas</a></li>
-												<li><a href="furniture.html">Dining Tables</a></li>
-												<li><a href="furniture.html">Shoe Racks</a></li>
-												<li><a href="furniture.html">Home Decor</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<h6>Office Collection</h6>
-												<li><a href="furniture.html">Carpets</a></li>
-												<li><a href="furniture.html">Tables</a></li>
-												<li><a href="furniture.html">Sofas</a></li>
-												<li><a href="furniture.html">Shoe Racks</a></li>
-												<li><a href="furniture.html">Sockets</a></li>
-												<li><a href="furniture.html">Electrical Machines</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-4">
-											<ul class="multi-column-dropdown">
-												<h6>Decorations</h6>
-												<li><a href="furniture.html">Toys</a></li>
-												<li><a href="furniture.html">Wall Clock</a></li>
-												<li><a href="furniture.html">Lighting</a></li>
-												<li><a href="furniture.html">Top Brands</a></li>
-											</ul>
-										</div>
-										<div class="clearfix"></div>
-									</div>
+									<ul class="multi-column-dropdown ">
+										<li><a href="products.jsp">Teacher's day</a></li>
+										<li><a href="products.jsp">Halloween</a></li>
+										<li><a href="products.jsp">Love & Romance</a></li>
+										<li><a href="products.jsp">Anniverary</a></li>
+										<li><a href="products.jsp">Congratulations</a></li>
+										<li><a href="products.jsp">Engagement</a></li>
+										<li><a href="products.jsp">Wedding</a></li>
+									</ul>
+									<div class="clearfix"></div>
 								</ul>
 							</li>
-							<li><a href="short-codes.html">Short Codes</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Flowers <b class="caret"></b></a>
+								<ul class="dropdown-menu multi-column columns-3">
+									<ul class="multi-column-dropdown">
+										<li><a href="furniture.html">Best Sellers</a></li>
+										<li><a href="furniture.html">New Flowers</a></li>
+										<li><a href="furniture.html">Tulips</a></li>
+										<li><a href="furniture.html">Iris</a></li>
+										<li><a href="furniture.html">Lilies</a></li>
+									</ul>
+									<div class="clearfix"></div>
+								</ul>
+							</li>
 							<li><a href="mail.html">Mail Us</a></li>
 						</ul>
 					</div>
@@ -211,57 +171,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<div class="products">
 		<div class="container">
-			<div class="col-md-4 products-left">
-				<div class="filter-price animated wow slideInUp" data-wow-delay=".5s">
-					<h3>Filter By Price</h3>
-					<ul class="dropdown-menu1">
-							<li><a href="">								               
-							<div id="slider-range"></div>							
-							<input type="text" id="amount" style="border: 0" />
-							</a></li>	
-					</ul>
-						<script type='text/javascript'>//<![CDATA[ 
-						$(window).load(function(){
-						 $( "#slider-range" ).slider({
-								range: true,
-								min: 0,
-								max: 100000,
-								values: [ 20000, 80000 ],
-								slide: function( event, ui ) {  $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-								}
-					 });
-					$( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) + " - $" + $( "#slider-range" ).slider( "values", 1 ) );
-
-
-						});//]]>
-						</script>
-						<script type="text/javascript" src="js/jquery-ui.min.js"></script>
-					 <!---->
-				</div>
-				<div class="categories animated wow slideInUp" data-wow-delay=".5s">
-					<h3>Categories</h3>
-					<ul class="cate">
-						<li><a href="products.jsp">Best Selling</a> <span>(15)</span></li>
-						<li><a href="products.jsp">Man</a> <span>(16)</span></li>
-							<ul>
-								<li><a href="products.jsp">Accessories</a> <span>(2)</span></li>
-								<li><a href="products.jsp">Coats & Jackets</a> <span>(5)</span></li>
-								<li><a href="products.jsp">Jeans</a> <span>(1)</span></li>
-								<li><a href="products.jsp">New Arrivals</a> <span>(0)</span></li>
-								<li><a href="products.jsp">Suits</a> <span>(1)</span></li>
-								<li><a href="products.jsp">Casual Shirts</a> <span>(0)</span></li>
-							</ul>
-						<li><a href="products.jsp">Sales</a> <span>(15)</span></li>
-						<li><a href="products.jsp">Woman</a> <span>(15)</span></li>
-							<ul>
-								<li><a href="products.jsp">Accessories</a> <span>(2)</span></li>
-								<li><a href="products.jsp">New Arrivals</a> <span>(0)</span></li>
-								<li><a href="products.jsp">Dresses</a> <span>(1)</span></li>
-								<li><a href="products.jsp">Casual Shirts</a> <span>(0)</span></li>
-								<li><a href="products.jsp">Shorts</a> <span>(4)</span></li>
-							</ul>
-					</ul>
-				</div>
+			<div class = "col-md-4 products-left">
 				<div class="new-products animated wow slideInUp" data-wow-delay=".5s">
 					<h3>New Products</h3>
 					<div class="new-products-grids">
@@ -366,36 +276,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 			<div class="col-md-8 products-right">
-				<div class="products-right-grid">
-					<div class="products-right-grids animated wow slideInRight" data-wow-delay=".5s">
-						<div class="sorting">
-							<select id="country" onchange="change_country(this.value)" class="frm-field required sect">
-								<option value="null">Default sorting</option>
-								<option value="null">Sort by popularity</option> 
-								<option value="null">Sort by average rating</option>					
-								<option value="null">Sort by price</option>								
-							</select>
-						</div>
-						<div class="sorting-left">
-							<select id="country1" onchange="change_country(this.value)" class="frm-field required sect">
-								<option value="null">Item on page 9</option>
-								<option value="null">Item on page 18</option> 
-								<option value="null">Item on page 32</option>					
-								<option value="null">All</option>								
-							</select>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="products-right-grids-position animated wow slideInRight" data-wow-delay=".5s">
-						<img src="images/18.jpg" alt=" " class="img-responsive" />
-						<div class="products-right-grids-position1">
-							<h4>2016 New Collection</h4>
-							<p>Temporibus autem quibusdam et aut officiis debitis aut rerum 
-								necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae 
-								non recusandae.</p>
-						</div>
-					</div>
-				</div>
 				<div class="products-right-grids-bottom">
 					<div class="col-md-4 products-right-grids-bottom-grid">
 						<div class="new-collections-grid1 products-right-grid1 animated wow slideInUp" data-wow-delay=".5s">

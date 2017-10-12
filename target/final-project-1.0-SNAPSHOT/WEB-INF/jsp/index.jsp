@@ -90,45 +90,43 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul class="nav navbar-nav">
 							<li class="active"><a href="/" class="act">Home</a></li>
 							<!-- Mega Menu -->
+                            <c:forEach var="cate" items="${category}">
+                                <c:if test="${cate.cateId == 1}">
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Birthday <b class="caret"></b></a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">${cate.cateName}<b class="caret"></b></a>
 								<ul class="dropdown-menu multi-column columns-3">
 											<ul class="multi-column-dropdown">
-												<li><a href="products.html">Birthdays for Mom</a></li>
-												<li><a href="products.html">Birthdays for Wife</a></li>
-												<li><a href="products.html">Birthdays for Friend</a></li>
+												<li><a href="products.jsp">${cate.name}</a></li>
 											</ul>
-										<div class="clearfix"></div>
+                                <div class="clearfix"></div>
 								</ul>
 							</li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Occasion <b class="caret"></b></a>
-								<ul class="dropdown-menu multi-column columns-3">
-											<ul class="multi-column-dropdown ">
-												<li><a href="products.html">Teacher's day</a></li>
-												<li><a href="products.html">Halloween</a></li>
-												<li><a href="products.html">Love & Romance</a></li>
-												<li><a href="products.html">Anniverary</a></li>
-												<li><a href="products.html">Congratulations</a></li>
-												<li><a href="products.html">Engagement</a></li>
-												<li><a href="products.html">Wedding</a></li>
-											</ul>
-										<div class="clearfix"></div>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Flowers <b class="caret"></b></a>
-								<ul class="dropdown-menu multi-column columns-3">
-											<ul class="multi-column-dropdown">
-												<li><a href="furniture.html">Best Sellers</a></li>
-												<li><a href="furniture.html">New Flowers</a></li>
-												<li><a href="furniture.html">Tulips</a></li>
-												<li><a href="furniture.html">Iris</a></li>
-												<li><a href="furniture.html">Lilies</a></li>
-											</ul>
-										<div class="clearfix"></div>
-								</ul>
-							</li>							
+                                </c:if>
+
+                                <c:if test="${cate.cateId == 2}">
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">${cate.cateName}<b class="caret"></b></a>
+                                        <ul class="dropdown-menu multi-column columns-3">
+                                            <ul class="multi-column-dropdown">
+                                                <li><a href="products.jsp">${cate.name}</a></li>
+                                            </ul>
+                                            <div class="clearfix"></div>
+                                        </ul>
+                                    </li>
+                                </c:if>
+
+                                <c:if test="${cate.cateId == 3}">
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">${cate.cateName}<b class="caret"></b></a>
+                                        <ul class="dropdown-menu multi-column columns-3">
+                                            <ul class="multi-column-dropdown">
+                                                <li><a href="products.jsp">${cate.name}</a></li>
+                                            </ul>
+                                            <div class="clearfix"></div>
+                                        </ul>
+                                    </li>
+                                </c:if>
+                            </c:forEach>
 							<li><a href="mail.html">Mail Us</a></li>
 						</ul>
 					</div>
@@ -263,7 +261,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="timer-grids">
 				<div class="col-md-8 timer-grid-left animated wow slideInLeft" data-wow-delay=".5s">
-					<h3><a href="products.html">100 Blooms of Floral-Fetti</a></h3>
+					<h3><a href="products.jsp">100 Blooms of Floral-Fetti</a></h3>
 					<div class="rating">
 						<div class="rating-left">
 							<img src="images/2.png" alt=" " class="img-responsive" />

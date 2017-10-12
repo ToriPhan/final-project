@@ -16,10 +16,32 @@ public class CategoryEntity {
     @Column(name = "name")
     private String name;
 
+    @Column(name= "cateId")
+    private int cateId;
+
+    @Column(name = "cateName")
+    private String cateName;
+
     @OneToMany(mappedBy = "category")
     List<ProductEntity> productList;
 
     public CategoryEntity() {
+    }
+
+    public String getCateName() {
+        return cateName;
+    }
+
+    public void setCateName(String cateName) {
+        this.cateName = cateName;
+    }
+
+    public int getCateId() {
+        return cateId;
+    }
+
+    public void setCateId(int cateId) {
+        this.cateId = cateId;
     }
 
     public int getId() {
