@@ -11,6 +11,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Controller
@@ -29,7 +30,15 @@ public class HomeController {
     public String showProducts (Model model) {
         List<ProductEntity> products = (List<ProductEntity>) productRepository.findAll();
         model.addAttribute("products", products);
+
         List<CategoryEntity> categoryList = (List<CategoryEntity>) categoryRepository.findAll();
+
+        List<CategoryEntity> category1 = new ArrayList();
+
+        for (int i = 0; i < categoryList.size(); i++) {
+            if (categoryList.)
+
+        }
         model.addAttribute("category", categoryList);
         return "index";
 
@@ -41,4 +50,6 @@ public class HomeController {
     model.addAttribute("product", productEntity);
     return "single";
     }
+
+
 }
