@@ -90,44 +90,39 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul class="nav navbar-nav">
 							<li class="active"><a href="/" class="act">Home</a></li>
 							<!-- Mega Menu -->
-                            <c:forEach var="cate" items="${category}">
-                                <c:if test="${cate.cateId == 1}">
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">${cate.cateName}<b class="caret"></b></a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">${category1[0].cateName}<b class="caret"></b></a>
 								<ul class="dropdown-menu multi-column columns-3">
+									<c:forEach var="cate" items="${category1}">
 											<ul class="multi-column-dropdown">
-												<li><a href="products.jsp">${cate.name}</a></li>
+												<li><a href="/category?id=${cate.id}">${cate.name}</a></li>
 											</ul>
+									</c:forEach>
                                 <div class="clearfix"></div>
 								</ul>
 							</li>
-                                </c:if>
-
-                                <c:if test="${cate.cateId == 2}">
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">${cate.cateName}<b class="caret"></b></a>
-                                        <ul class="dropdown-menu multi-column columns-3">
-                                            <ul class="multi-column-dropdown">
-                                                <li><a href="products.jsp">${cate.name}</a></li>
-                                            </ul>
-                                            <div class="clearfix"></div>
-                                        </ul>
-                                    </li>
-                                </c:if>
-
-                                <c:if test="${cate.cateId == 3}">
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">${cate.cateName}<b class="caret"></b></a>
-                                        <ul class="dropdown-menu multi-column columns-3">
-                                            <ul class="multi-column-dropdown">
-                                                <li><a href="products.jsp">${cate.name}</a></li>
-                                            </ul>
-                                            <div class="clearfix"></div>
-                                        </ul>
-                                    </li>
-                                </c:if>
-                            </c:forEach>
-							<li><a href="mail.html">Mail Us</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">${category2[0].cateName}<b class="caret"></b></a>
+								<ul class="dropdown-menu multi-column columns-3">
+									<c:forEach var="cate" items="${category2}">
+									<ul class="multi-column-dropdown">
+										<li><a href="/category?id=${cate.id}">${cate.name}</a></li>
+									</ul>
+									</c:forEach>
+								<div class="clearfix"></div>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">${category3[0].cateName}<b class="caret"></b></a>
+								<ul class="dropdown-menu multi-column columns-3">
+									<c:forEach var="cate" items="${category3}">
+									<ul class="multi-column-dropdown">
+										<li><a href="/category?id=${cate.id}">${cate.name}</a></li>
+									</ul>
+									</c:forEach>
+								<div class="clearfix"></div>
+								</ul>
+							</li>
 						</ul>
 					</div>
 					</nav>
@@ -226,19 +221,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="new-collections-grid1-right">
 								<div class="rating">
 									<div class="rating-left">
-										<img src="images/2.png" alt=" " class="img-responsive" />
+										<img src="/resources/images/2.png" alt=" " class="img-responsive" />
 									</div>
 									<div class="rating-left">
-										<img src="images/2.png" alt=" " class="img-responsive" />
+										<img src="/resources/images/2.png" alt=" " class="img-responsive" />
 									</div>
 									<div class="rating-left">
-										<img src="images/2.png" alt=" " class="img-responsive" />
+										<img src="/resources/images/2.png" alt=" " class="img-responsive" />
 									</div>
 									<div class="rating-left">
-										<img src="images/1.png" alt=" " class="img-responsive" />
+										<img src="/resources/images/1.png" alt=" " class="img-responsive" />
 									</div>
 									<div class="rating-left">
-										<img src="images/1.png" alt=" " class="img-responsive" />
+										<img src="/resources/images/1.png" alt=" " class="img-responsive" />
 									</div>
 									<div class="clearfix"> </div>
 								</div>
@@ -264,19 +259,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h3><a href="products.jsp">100 Blooms of Floral-Fetti</a></h3>
 					<div class="rating">
 						<div class="rating-left">
-							<img src="images/2.png" alt=" " class="img-responsive" />
+							<img src="/resources/images/2.png" alt=" " class="img-responsive" />
 						</div>
 						<div class="rating-left">
-							<img src="images/2.png" alt=" " class="img-responsive" />
+							<img src="/resources/images/2.png" alt=" " class="img-responsive" />
 						</div>
 						<div class="rating-left">
-							<img src="images/2.png" alt=" " class="img-responsive" />
+							<img src="/resources/images/2.png" alt=" " class="img-responsive" />
 						</div>
 						<div class="rating-left">
-							<img src="images/2.png" alt=" " class="img-responsive" />
+							<img src="/resources/images/2.png" alt=" " class="img-responsive" />
 						</div>
 						<div class="rating-left">
-							<img src="images/1.png" alt=" " class="img-responsive" />
+							<img src="/resources/images/1.png" alt=" " class="img-responsive" />
 						</div>
 						<div class="clearfix"> </div>
 					</div>

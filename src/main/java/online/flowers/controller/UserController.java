@@ -1,8 +1,11 @@
 package online.flowers.controller;
 
+import online.flowers.entity.CategoryEntity;
 import online.flowers.entity.RoleEntity;
 import online.flowers.entity.UserEntity;
+import online.flowers.repository.CategoryRepository;
 import online.flowers.repository.UserRepository;
+import online.flowers.repository.implementation.CategoryImp;
 import online.flowers.service.SendConfirmationEmail;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -14,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+import java.util.List;
 
 
 @Controller
@@ -25,16 +29,19 @@ public class UserController {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
+    @Autowired
+    private CategoryRepository categoryRepository;
 
-    @RequestMapping(value = "/register",
-            method = RequestMethod.GET)
+    @RequestMapping(value = "/register", method = RequestMethod.GET)
     public String showRegister(Model model){
         model.addAttribute("user", new UserEntity());
+        showCategory(model);
         return "register";
     }
 
     @RequestMapping(value = "/register", method = RequestMethod.POST)
     public String submitRegister(Model model, UserEntity user){
+        showCategory(model);
         if (userRepository.findByEmail(user.getEmail()) != null){
             // email has existed
             model.addAttribute("error", "Email has existed!");
@@ -59,7 +66,7 @@ public class UserController {
 
     @RequestMapping(value = "/activation", method = RequestMethod.GET)
     public String activateAccount (Model model, @RequestParam("code") String activationCode) {
-
+        showCategory(model);
         String message = null;
         UserEntity user = userRepository.findByActivationCode(activationCode);
 
@@ -78,6 +85,7 @@ public class UserController {
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public String showLogin(Model model){
+        showCategory(model);
         model.addAttribute("user", new UserEntity());
         return "login";
     }
@@ -86,6 +94,8 @@ public class UserController {
     public String submitLogin(Model model,
                               UserEntity user,
                               HttpServletRequest request){
+
+        showCategory(model);
 
         UserEntity userEntity = userRepository.findByEmail(user.getEmail());
 
@@ -115,6 +125,16 @@ public class UserController {
     public String logout(HttpServletRequest request){
         request.getSession().invalidate();
         return "redirect:/";
+    }
+
+    public void showCategory(Model model) {
+        List<CategoryEntity> categoryList1 =  categoryRepository.findByCateId(1);
+        List<CategoryEntity> categoryList2 =  categoryRepository.findByCateId(2);
+        List<CategoryEntity> categoryList3 =  categoryRepository.findByCateId(3);
+
+        model.addAttribute("category1", categoryList1);
+        model.addAttribute("category2", categoryList2);
+        model.addAttribute("category3", categoryList3);
     }
 
 }

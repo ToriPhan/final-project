@@ -84,46 +84,39 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul class="nav navbar-nav">
 							<li><a href="/">Home</a></li>
 							<!-- Mega Menu -->
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Birthday <b class="caret"></b></a>
-                                <ul class="dropdown-menu multi-column columns-3">
-                                    <ul class="multi-column-dropdown">
-                                        <li><a href="products.jsp">Birthdays for Mom</a></li>
-                                        <li><a href="products.jsp">Birthdays for Wife</a></li>
-                                        <li><a href="products.jsp">Birthdays for Friend</a></li>
-                                    </ul>
-                                    <div class="clearfix"></div>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Occasion <b class="caret"></b></a>
-                                <ul class="dropdown-menu multi-column columns-3">
-                                    <ul class="multi-column-dropdown ">
-                                        <li><a href="products.jsp">Teacher's day</a></li>
-                                        <li><a href="products.jsp">Halloween</a></li>
-                                        <li><a href="products.jsp">Love & Romance</a></li>
-                                        <li><a href="products.jsp">Anniverary</a></li>
-                                        <li><a href="products.jsp">Congratulations</a></li>
-                                        <li><a href="products.jsp">Engagement</a></li>
-                                        <li><a href="products.jsp">Wedding</a></li>
-                                    </ul>
-                                    <div class="clearfix"></div>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Flowers <b class="caret"></b></a>
-                                <ul class="dropdown-menu multi-column columns-3">
-                                    <ul class="multi-column-dropdown">
-                                        <li><a href="furniture.html">Best Sellers</a></li>
-                                        <li><a href="furniture.html">New Flowers</a></li>
-                                        <li><a href="furniture.html">Tulips</a></li>
-                                        <li><a href="furniture.html">Iris</a></li>
-                                        <li><a href="furniture.html">Lilies</a></li>
-                                    </ul>
-                                    <div class="clearfix"></div>
-                                </ul>
-                            </li>
-							<li><a href="mail.html">Mail Us</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">${category1[0].cateName}<b class="caret"></b></a>
+								<ul class="dropdown-menu multi-column columns-3">
+									<c:forEach var="cate" items="${category1}">
+										<ul class="multi-column-dropdown">
+											<li><a href="/category?id=${cate.id}">${cate.name}</a></li>
+										</ul>
+									</c:forEach>
+									<div class="clearfix"></div>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">${category2[0].cateName}<b class="caret"></b></a>
+								<ul class="dropdown-menu multi-column columns-3">
+									<c:forEach var="cate" items="${category2}">
+										<ul class="multi-column-dropdown">
+											<li><a href="/category?id=${cate.id}">${cate.name}</a></li>
+										</ul>
+									</c:forEach>
+									<div class="clearfix"></div>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">${category3[0].cateName}<b class="caret"></b></a>
+								<ul class="dropdown-menu multi-column columns-3">
+									<c:forEach var="cate" items="${category3}">
+										<ul class="multi-column-dropdown">
+											<li><a href="/category?id=${cate.id}">${cate.name}</a></li>
+										</ul>
+									</c:forEach>
+									<div class="clearfix"></div>
+								</ul>
+							</li>
 						</ul>
 					</div>
 					</nav>
@@ -264,13 +257,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul id="myTab" class="nav nav-tabs" role="tablist">
 							<li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Description</a></li>
 							<li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">Reviews(2)</a></li>
-							<li role="presentation" class="dropdown">
-								<a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown" aria-controls="myTabDrop1-contents">Information <span class="caret"></span></a>
-								<ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1" id="myTabDrop1-contents">
-									<li><a href="#dropdown1" tabindex="-1" role="tab" id="dropdown1-tab" data-toggle="tab" aria-controls="dropdown1">cleanse</a></li>
-									<li><a href="#dropdown2" tabindex="-1" role="tab" id="dropdown2-tab" data-toggle="tab" aria-controls="dropdown2">fanny</a></li>
-								</ul>
-							</li>
 						</ul>
 						<div id="myTabContent" class="tab-content">
 							<div role="tabpanel" class="tab-pane fade in active bootstrap-tab-text" id="home" aria-labelledby="home-tab">
